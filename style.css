@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0%;
+    background-color: black;
+}
+#navbar li{
+    list-style: none;
+    margin-top: 40px ;
+    display: block;
+    
+}
+#navbar a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+
+}
+
+#navbar {
+    background-color: black;
+    position: fixed;
+    width: 200px;
+    height: 900px;
+    transform: translate(0px);
+    transition: transform 1s;
+}
+#navbar.open {
+    transform: translate(-300px);
+}
+
+button {
+    border: none;
+    background-color: black;
+    cursor: pointer;
+}
+
+#navbar a {
+    display: block; 
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    padding: 10px 15px;
+   }
+
+#navbar li:hover {
+    background-color: #444; 
+    width: 125px;
+}
+
+
